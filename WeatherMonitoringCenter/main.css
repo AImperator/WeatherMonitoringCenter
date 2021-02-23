@@ -1,0 +1,113 @@
+html {
+    background: rgba(0, 0, 0, 1);
+    font-family: "Times New Roman", "serif";
+    font-size: 25px;
+}
+
+body {
+    background: rgba(140, 140, 140, 0.75);
+    margin: 5% auto;
+    padding: 2%;
+}
+
+h1 {
+    border-style: solid;
+    text-align: center;
+    background: rgba(250, 250, 0, 1);
+}
+
+h2 {
+    border-style: solid;
+    border-bottom-style: hidden;
+    text-align: center;
+    background: rgba(250, 250, 0, 1);
+    margin: 0;
+}
+
+h3 {
+    display: block;
+    border-style: solid;
+    border-color: rgba(250, 250, 0, 1);
+    text-align: center;
+}
+
+img {
+    width: 99%;
+    height: 20%;
+    border-style: solid;
+}
+
+#nav {
+    display: block;
+    font-size: 150%;
+    background: rgba(250, 250, 0, 1);
+    text-align: center;
+    border-style: solid;
+    border-top-style: hidden;
+    margin: 0 auto;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    margin: auto 5%;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 250, 1);
+    color: rgba(250, 250, 0, 1);
+}
+
+a:active {
+    background-color: rgba(0, 0, 250, 1);
+    color: rgba(250, 250, 0, 1);
+}
+
+.sign {
+    font-weight: 200;
+    color: rgba(250, 250, 0, 1);
+}
+
+.display {
+    float: none;
+    display: block;
+    width: auto;
+    max-height: 850px;
+    margin-top: 0;
+    overflow-y: scroll;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 1);
+}
+
+.show {
+    display: inline-block;
+    float: left;
+    margin: 1.5%;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    float: none;
+    margin: 0.3% auto;
+}
+
+form {
+    display: block;
+    text-align: center;
+}
+
+foot {
+    float: none;
+    margin-top: 10px;
+    display: block;
+    border-top-style: solid;
+    text-align: center;
+}
+
+#itpw_logo {
+    width: auto;
+    height: auto;
+}
